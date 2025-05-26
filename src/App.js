@@ -1,23 +1,36 @@
 import logo from './logo.svg';
 import './App.css';
+// import Home from './Home.jsx'
+import { Route, Router } from 'react-router-dom';
+import Home from './Home';
+import Intro from './Intro';
+import Greet from './components/Greet';
+import Welcome from './components/Welcome';
+import Hello from './components/Hello';
+import Message from './components/Message';
+import Counter from './components/Counter';
+import FunctionClick from './components/FunctionClick';
+import ClassClick from './components/ClassClick';
+import EventBind from './components/EventBind';
+import ParentComp from './components/ParentComp';
+import UserGreeting from './components/UserGreeting';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div> 
+      <UserGreeting />
+      {/* <ParentComp /> */}
+      {/* <p> Sample text </p>
+      <Home />
+      <Intro />
+      <Greet />
+      <Welcome name="Manudheeran" />
+      <Hello /> */}
+      {/* <Message /> */}
+      {/* <Counter /> */}
+      {/* <FunctionClick /> */}
+      {/* <ClassClick /> */}
+      {/* <EventBind /> */}
     </div>
   );
 }

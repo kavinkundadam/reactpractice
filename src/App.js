@@ -14,11 +14,17 @@ import ClassClick from './components/ClassClick';
 import EventBind from './components/EventBind';
 import ParentComp from './components/ParentComp';
 import UserGreeting from './components/UserGreeting';
+import NameList from './components/NameList';
+import Stylesheet from './components/Stylesheet';
+import Inline from './components/Inline';
 
 function App() {
   return (
     <div> 
-      <UserGreeting />
+      <Inline />
+      {/* <Stylesheet primary={true} /> */}
+      {/* <NameList /> */}
+      {/* <UserGreeting /> */}
       {/* <ParentComp /> */}
       {/* <p> Sample text </p>
       <Home />
